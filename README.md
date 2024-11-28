@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Random User Generator
 
-## Getting Started
+A feature-rich **Random User Generator** application built using modern technologies like **ShadCN**, **Next.js**, **Tailwind CSS**, **React**, and a public **API** ([randomuser.me](https://randomuser.me)).
 
-First, run the development server:
+This app allows users to fetch random user profiles, filter users by gender, and toggle between **light** and **dark themes** for a better user experience.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Random User Profiles**: Fetch random user profiles with detailed information (name, email, address, description).
+- **Gender Filter**: Select between "Male," "Female," or "Any" to customize the fetched user profiles.
+- **Theme Toggle**: Switch between light and dark themes for an improved UI experience.
+- **Responsive Design**: Optimized for devices of all screen sizes.
+- **Appreciation Feature**: Show appreciation for the fetched user with a fun animated message.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🛠️ Built With
 
-To learn more about Next.js, take a look at the following resources:
+- **[ShadCN](https://shadcn.dev/)**: For pre-styled components.
+- **[Next.js](https://nextjs.org/)**: React framework for server-side rendering and static site generation.
+- **[Tailwind CSS](https://tailwindcss.com/)**: For building a beautiful and responsive user interface.
+- **[React](https://reactjs.org/)**: For building the component-based user interface.
+- **[randomuser.me API](https://randomuser.me/)**: For fetching user data.
+- **[React Transition Group](https://reactcommunity.org/react-transition-group/)**: For smooth animations.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📸 Screenshots
 
-## Deploy on Vercel
+![Light Theme](./screenshots/light.png)
+![Dark Theme](./screenshots/dark.png)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🧰 Installation and Setup
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Sheikh-Muhammad-Mujtaba/random-user-generator.git
+   cd random-user-generator
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser at `http://localhost:3000` to view the app.
+
+---
+
+## 🖼️ Usage
+
+### Fetch Random User
+- Click the **Fetch New User** button to load a random user profile.
+  
+### Filter Users by Gender
+- Use the dropdown to select a gender (`Any`, `Male`, or `Female`).
+- Fetch new profiles based on your selection.
+
+### Theme Toggle
+- Switch between light and dark themes using the theme toggle button.
+
+---
+
+## 🙌 Acknowledgments
+
+- Thanks to **[randomuser.me](https://randomuser.me)** for providing free user data.
+- Shoutout to the creators of **ShadCN**, **Next.js**, **Tailwind CSS**, and **React** for their amazing tools.
